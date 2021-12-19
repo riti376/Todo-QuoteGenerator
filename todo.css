@@ -1,0 +1,95 @@
+body{
+    background-image: url("img/Untitled.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    height: 100vh;
+}
+
+.List-container{
+    width: 380px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0);
+    position: relative;
+    left: 40%;
+    margin-top: 2.5%;
+    background-color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2em;
+    color: rgb(80, 76, 76);
+}
+h1{
+    padding-top: 5%;
+    text-align: center;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+li{
+    height: 40px;
+    line-height: 40px;
+    background-color: #fff;
+}
+li:nth-child(2n){
+    background-color: rgb(156, 224, 252);
+}
+input{
+    width: 100%;
+    font-size: 18px;
+    box-sizing: border-box;
+    padding: 13px 13px 13px 20px;
+    border: none;
+    background-color: rgb(156, 224, 252);
+}
+.completed{
+   color: gray; 
+   text-decoration: line-through;
+}
+span{
+    margin-right: 20px;
+    height: 40px;
+    width: 0;
+    background-color: black;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    opacity: 0;
+}
+li:hover span{
+    width: 40px;
+    opacity: 1;
+    transition: 0.5s linear;
+}
+
+
+.Quote-Container{
+    margin-top: 5%;
+    width: 600px;
+    padding: 2% 2.5% 2.5% 2.5%;
+    text-align: center;
+    position: relative;
+    left: 30%;
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3em;
+    color: rgb(78, 76, 76);
+    border-top: 30px solid rgb(156, 224, 252);
+    border-left: 30px solid rgb(156, 224, 252);
+    border-radius: 50px;
+
+}
+.button{
+    border: none;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(156, 224, 252);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 1em;
+}
+.button:hover{
+    box-shadow: 0 4px 8px rgb(225, 235, 240);
+    width: 220px;
+}
